@@ -5,12 +5,14 @@
 **Gérez votre stock de lait maternel congelé en toute simplicité.**
 
 [![Android](https://img.shields.io/badge/Android-8.0%2B-3DDC84?logo=android&logoColor=white)](https://developer.android.com)
+[![iOS](https://img.shields.io/badge/iOS-17%2B-000000?logo=apple&logoColor=white)](https://apps.apple.com/app/petites-gouttes/id6760202126)
 [![Kotlin](https://img.shields.io/badge/Kotlin-2.0-7F52FF?logo=kotlin&logoColor=white)](https://kotlinlang.org)
-[![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-Material%203-4285F4?logo=jetpackcompose&logoColor=white)](https://developer.android.com/jetpack/compose)
+[![Swift](https://img.shields.io/badge/Swift-6-F05138?logo=swift&logoColor=white)](https://swift.org)
 [![License: MIT](https://img.shields.io/badge/Licence-MIT-yellow.svg)](LICENSE)
 
-App Android gratuite et open source — aucune inscription, aucun serveur, toutes les données restent sur votre appareil.
+App gratuite et open source — aucune inscription, aucun serveur, toutes les données restent sur votre appareil.
 
+[![App Store](https://img.shields.io/badge/App%20Store-Télécharger-0D96F6?logo=apple&logoColor=white)](https://apps.apple.com/app/petites-gouttes/id6760202126)
 [Télécharger l'APK](https://github.com/bnjdpn/petites-gouttes/releases/latest)
 
 </div>
