@@ -1,0 +1,8 @@
+Première version de Petites Gouttes pour iOS !
+
+- Tableau de bord avec alertes de stock et DLC
+- Gestion du congélateur avec tri et actions rapides
+- Statistiques de production avec graphiques
+- Historique des sachets utilisés
+- Réglages personnalisés
+- Toutes les données restent sur votre appareil
