@@ -20,6 +20,7 @@ MVVM with SwiftUI + SwiftData. No DI framework. @Observable ViewModels with @Mai
     ├── ViewModels/      # Dashboard, Freezer, History, Stats, Settings
     ├── Views/           # SwiftUI screens and components
     ├── Navigation/      # ContentView with TabView
+    ├── Resources/       # Assets.xcassets (app icon, colors)
     └── Theme/           # Colors, card styles
 
 ## Key details
@@ -28,8 +29,9 @@ MVVM with SwiftUI + SwiftData. No DI framework. @Observable ViewModels with @Mai
 - SwiftData local only (no CloudKit)
 - French only (no localization)
 - XcodeGen: project.yml is source of truth (.xcodeproj gitignored)
-- Fastlane for screenshots and App Store deployment
+- Fastlane for screenshots and App Store deployment (requires `bundle install`)
 - Settings via @AppStorage (UserDefaults)
+- Snapshot UI tests exist in PetitesGouttesUITests (used by Fastlane screenshots)
 
 ## Deploy
 

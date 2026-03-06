@@ -1,6 +1,7 @@
 # Petites Gouttes
 
 Android app (Kotlin) for managing frozen breast milk bag inventory. French-language UI.
+iOS port in `ios/` (has its own CLAUDE.md). GitHub Pages support site in `docs/`.
 
 ## Build
 
