@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Milk drop body - large teardrop shape -->
+    <path
+        android:pathData="M54,24 Q54,24 43,46 Q34,58 34,66 Q34,78 43,84 Q48,87 54,87 Q60,87 65,84 Q74,78 74,66 Q74,58 65,46 Q54,24 54,24 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Drop subtle outline -->
+    <path
+        android:pathData="M54,24 Q54,24 43,46 Q34,58 34,66 Q34,78 43,84 Q48,87 54,87 Q60,87 65,84 Q74,78 74,66 Q74,58 65,46 Q54,24 54,24 Z"
+        android:strokeWidth="1.2"
+        android:strokeColor="#E8C8D8"
+        android:fillColor="@android:color/transparent" />
+
+    <!-- Snowflake - vertical line -->
+    <path
+        android:pathData="M54,52 L54,74"
+        android:strokeWidth="2.2"
+        android:strokeColor="#B4718A"
+        android:strokeLineCap="round" />
+
+    <!-- Snowflake - diagonal line 1 -->
+    <path
+        android:pathData="M44.5,58 L63.5,68"
+        android:strokeWidth="2.2"
+        android:strokeColor="#B4718A"
+        android:strokeLineCap="round" />
+
+    <!-- Snowflake - diagonal line 2 -->
+    <path
+        android:pathData="M63.5,58 L44.5,68"
+        android:strokeWidth="2.2"
+        android:strokeColor="#B4718A"
+        android:strokeLineCap="round" />
+
+    <!-- Snowflake branches - top -->
+    <path
+        android:pathData="M54,56 L51,54 M54,56 L57,54"
+        android:strokeWidth="1.5"
+        android:strokeColor="#B4718A"
+        android:strokeLineCap="round" />
+
+    <!-- Snowflake branches - bottom -->
+    <path
+        android:pathData="M54,70 L51,72 M54,70 L57,72"
+        android:strokeWidth="1.5"
+        android:strokeColor="#B4718A"
+        android:strokeLineCap="round" />
+
+    <!-- Snowflake branches - upper left -->
+    <path
+        android:pathData="M47.5,60 L45.5,58 M47.5,60 L45.5,62"
+        android:strokeWidth="1.5"
+        android:strokeColor="#B4718A"
+        android:strokeLineCap="round" />
+
+    <!-- Snowflake branches - upper right -->
+    <path
+        android:pathData="M60.5,60 L62.5,58 M60.5,60 L62.5,62"
+        android:strokeWidth="1.5"
+        android:strokeColor="#B4718A"
+        android:strokeLineCap="round" />
+
+    <!-- Snowflake branches - lower left -->
+    <path
+        android:pathData="M47.5,66 L45.5,64 M47.5,66 L45.5,68"
+        android:strokeWidth="1.5"
+        android:strokeColor="#B4718A"
+        android:strokeLineCap="round" />
+
+    <!-- Snowflake branches - lower right -->
+    <path
+        android:pathData="M60.5,66 L62.5,64 M60.5,66 L62.5,68"
+        android:strokeWidth="1.5"
+        android:strokeColor="#B4718A"
+        android:strokeLineCap="round" />
+
+    <!-- Heart below the drop -->
+    <path
+        android:pathData="M54,91 Q54,89 52,87 Q50,85 48,87 Q46,89 48,91 L54,97 L60,91 Q62,89 60,87 Q58,85 56,87 Q54,89 54,91 Z"
+        android:fillColor="#E91E63" />
+</vector>
