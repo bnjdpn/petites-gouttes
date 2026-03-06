@@ -1,0 +1,11 @@
+devices([
+  "iPhone 15 Pro Max"
+])
+
+languages([
+  "fr-FR"
+])
+
+output_directory("./app_store_screenshots")
+clear_previous_screenshots(true)
+override_status_bar(false)

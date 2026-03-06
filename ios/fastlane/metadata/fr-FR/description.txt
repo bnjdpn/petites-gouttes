@@ -1,0 +1,19 @@
+Gérez simplement votre stock de lait maternel congelé.
+
+TABLEAU DE BORD
+Vue d'ensemble de votre stock en un coup d'œil : nombre de sachets, volume total et jours de stock restants. Recevez des alertes quand le stock est bas ou qu'un sachet approche de sa date limite de consommation.
+
+CONGÉLATEUR
+Consultez et gérez tous vos sachets congelés. Triez par date ou par volume, retirez un sachet pour l'utiliser ou supprimez-le. Le principe FIFO (premier entré, premier sorti) vous indique toujours quel sachet utiliser en priorité.
+
+STATISTIQUES
+Suivez l'évolution de votre production avec des graphiques clairs. Comparez vos moyennes sur 7 et 30 jours, visualisez vos volumes quotidiens et hebdomadaires. Une alerte vous prévient en cas de baisse significative de lactation.
+
+HISTORIQUE
+Retrouvez tous les sachets que vous avez utilisés. Restaurez un sachet dans le congélateur si nécessaire.
+
+RÉGLAGES PERSONNALISÉS
+Adaptez l'application à vos besoins : seuil d'alerte de stock bas, consommation quotidienne estimée et nombre de jours de garde par semaine.
+
+VIE PRIVÉE
+Toutes vos données sont stockées localement sur votre appareil. Aucun compte, aucun serveur, aucune collecte de données.
