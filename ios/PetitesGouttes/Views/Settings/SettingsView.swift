@@ -3,9 +3,9 @@ import SwiftUI
 struct SettingsView: View {
     @Environment(\.dismiss) private var dismiss
 
-    @AppStorage("lowStockThreshold") private var lowStockThreshold = 1000
-    @AppStorage("dailyConsumption") private var dailyConsumption = 200
-    @AppStorage("daycareDays") private var daycareDays = 5
+    @AppStorage("lowStockThresholdMl") private var lowStockThreshold = 1500
+    @AppStorage("dailyConsumptionMl") private var dailyConsumption = 300
+    @AppStorage("daycareDaysPerWeek") private var daycareDays = 5
 
     var body: some View {
         NavigationStack {

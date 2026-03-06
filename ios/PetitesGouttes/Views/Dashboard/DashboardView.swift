@@ -7,8 +7,8 @@ struct DashboardView: View {
     @State private var showAddSheet = false
     @State private var showSettings = false
 
-    @AppStorage("lowStockThreshold") private var lowStockThreshold = 1000
-    @AppStorage("dailyConsumption") private var dailyConsumption = 200
+    @AppStorage("lowStockThresholdMl") private var lowStockThreshold = 1500
+    @AppStorage("dailyConsumptionMl") private var dailyConsumption = 300
 
     private static let dateFormatter: DateFormatter = {
         let f = DateFormatter()
@@ -59,6 +59,7 @@ struct DashboardView: View {
                     vm = DashboardViewModel(modelContext: modelContext)
                 }
             }
+            .onAppear { vm?.fetchBags() }
         }
     }
 

@@ -39,6 +39,7 @@ struct HistoryView: View {
                     vm = HistoryViewModel(modelContext: modelContext)
                 }
             }
+            .onAppear { vm?.fetchBags() }
         }
     }
 

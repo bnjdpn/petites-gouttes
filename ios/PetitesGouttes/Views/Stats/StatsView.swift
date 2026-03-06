@@ -32,6 +32,7 @@ struct StatsView: View {
                     vm = StatsViewModel(modelContext: modelContext)
                 }
             }
+            .onAppear { vm?.fetchBags() }
         }
     }
 

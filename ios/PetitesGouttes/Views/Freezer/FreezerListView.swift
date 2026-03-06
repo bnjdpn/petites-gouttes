@@ -61,6 +61,7 @@ struct FreezerListView: View {
                     vm = FreezerViewModel(modelContext: modelContext)
                 }
             }
+            .onAppear { vm?.fetchBags() }
         }
     }
 
