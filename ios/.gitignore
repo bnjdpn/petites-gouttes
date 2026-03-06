@@ -3,3 +3,7 @@
 xcuserdata/
 DerivedData/
 build/
+fastlane/asc_api_key.json
+fastlane/report.xml
+fastlane/test_output/
+app_store_screenshots/
