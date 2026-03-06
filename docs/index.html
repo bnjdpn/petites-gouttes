@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petites Gouttes — Stock de lait maternel</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            color: #2c2c2c;
+            background: #fdf6f8;
+            line-height: 1.6;
+        }
+        .hero {
+            text-align: center;
+            padding: 4rem 1.5rem 2rem;
+            background: linear-gradient(135deg, #B4718A, #D4A0B0);
+            color: white;
+        }
+        .hero img {
+            width: 120px;
+            height: 120px;
+            border-radius: 24px;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+        }
+        .hero h1 { font-size: 2.2rem; font-weight: 700; margin-bottom: 0.5rem; }
+        .hero p { font-size: 1.15rem; opacity: 0.9; max-width: 500px; margin: 0 auto; }
+        .badges { margin-top: 1.5rem; }
+        .badges a {
+            display: inline-block;
+            background: white;
+            color: #B4718A;
+            text-decoration: none;
+            padding: 0.7rem 1.8rem;
+            border-radius: 12px;
+            font-weight: 600;
+            font-size: 1rem;
+            margin: 0.3rem;
+            transition: transform 0.2s;
+        }
+        .badges a:hover { transform: scale(1.05); }
+        .section {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 3rem 1.5rem;
+        }
+        .section h2 {
+            font-size: 1.5rem;
+            color: #B4718A;
+            margin-bottom: 1rem;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 0 1.5rem 2rem;
+        }
+        @media (max-width: 600px) { .features { grid-template-columns: 1fr; } }
+        .feature {
+            background: white;
+            border-radius: 16px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 8px rgba(180,113,138,0.1);
+        }
+        .feature h3 { color: #B4718A; margin-bottom: 0.4rem; font-size: 1.1rem; }
+        .feature p { font-size: 0.95rem; color: #555; }
+        .privacy {
+            background: white;
+            border-radius: 16px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 8px rgba(180,113,138,0.1);
+            margin-bottom: 2rem;
+        }
+        .privacy p { color: #555; font-size: 0.95rem; }
+        footer {
+            text-align: center;
+            padding: 2rem 1.5rem;
+            color: #999;
+            font-size: 0.85rem;
+            border-top: 1px solid #f0e0e6;
+        }
+        footer a { color: #B4718A; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <img src="icon.png" alt="Petites Gouttes">
+        <h1>Petites Gouttes</h1>
+        <p>Gérez simplement votre stock de lait maternel congelé.</p>
+        <div class="badges">
+            <a href="https://apps.apple.com/app/petites-gouttes/id6760202126">App Store</a>
+            <a href="https://play.google.com/store/apps/details?id=com.bnjdpn.petitesgouttes">Google Play</a>
+        </div>
+    </div>
+
+    <div class="features">
+        <div class="feature">
+            <h3>Tableau de bord</h3>
+            <p>Vue d'ensemble de votre stock : nombre de sachets, volume total et jours restants. Alertes de stock bas et de DLC.</p>
+        </div>
+        <div class="feature">
+            <h3>Congélateur</h3>
+            <p>Gérez vos sachets, triez par date ou volume. Le principe FIFO vous guide pour utiliser le bon sachet.</p>
+        </div>
+        <div class="feature">
+            <h3>Statistiques</h3>
+            <p>Suivez votre production avec des graphiques. Alertes en cas de baisse de lactation.</p>
+        </div>
+        <div class="feature">
+            <h3>Historique</h3>
+            <p>Retrouvez tous les sachets utilisés. Restaurez un sachet si nécessaire.</p>
+        </div>
+    </div>
+
+    <div class="section" id="support">
+        <h2>Assistance</h2>
+        <div class="privacy">
+            <p>Pour toute question, suggestion ou problème, contactez-nous à <a href="mailto:benjamin.dupin@gmail.com">benjamin.dupin@gmail.com</a>.</p>
+        </div>
+
+        <h2>Vie privée</h2>
+        <div class="privacy">
+            <p>Petites Gouttes respecte votre vie privée. Toutes vos données sont stockées localement sur votre appareil. Aucun compte requis, aucun serveur externe, aucune collecte de données personnelles. L'application ne contient ni publicité ni tracker.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Benjamin Dupin — <a href="https://github.com/bnjdpn/petites-gouttes">Code source</a></p>
+    </footer>
+</body>
+</html>
